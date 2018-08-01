@@ -12,5 +12,5 @@ def is_leap(year):
         return True
     else:
         return False
-year = int(raw_input())
+year = int(raw_input("Enter a year to find leap year:"))
 print is_leap(year)
