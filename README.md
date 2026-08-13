@@ -1,4 +1,4 @@
-# dmitra100.github.io
+# Coding Practice Problems
 
 A collection of small Python scripts and coding practice problems.
 
