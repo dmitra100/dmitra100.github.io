@@ -1,15 +1,15 @@
 # Problem: Reverse a String
 # ─────────────────────────────────────────
 
-# Method A — slicing — fastest, most Pythonic
+# Method A — slicing
 def reverse_a(s):
     return s[::-1]
 
-# Method B — reversed() — readable, clean
+# Method B — reversed()
 def reverse_b(s):
     return "".join(reversed(s))
 
-# Method C — loop — shows understanding
+# Method C — loop
 def reverse_c(s):
     result = ""
     for char in s:
